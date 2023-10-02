@@ -1,0 +1,28 @@
+/* Landingpage.css */
+
+/* Styles for large screens */
+.landing-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .card {
+    width: 40rem;
+  }
+  
+  /* Styles for small screens */
+  @media (max-width: 767px) {
+    .landing-page-container {
+      flex-direction: column;
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+  
+    .card {
+      width: 90%;
+      max-width: 25rem;
+    }
+  }
+  
